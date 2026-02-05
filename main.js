@@ -48,7 +48,7 @@ const findCheckDigit = (array) => {
 }
 
 const findPayload = (array) => {
-    let payload = array.slice(0,array.length - 1);
+    let payload = array.slice(0, array.length - 1);
     return payload;
 }
 
